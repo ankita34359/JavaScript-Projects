@@ -6,10 +6,6 @@ Welcome to the JavaScript Projects repository! This collection showcases various
 
 - [Projects](#projects)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Projects
 
@@ -48,11 +44,3 @@ Welcome to the JavaScript Projects repository! This collection showcases various
 - **APIs:** Web Speech API (for Text-To-Speech Converter)
 - **Tools:** Git, GitHub
 
-## Getting Started
-
-To view and interact with these projects:
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/ankita34359/JavaScript-Projects.git
-   cd JavaScript-Projects
