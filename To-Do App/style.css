@@ -1,0 +1,165 @@
+/* 
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey ;
+  }
+  
+  .container{
+    margin:0 auto;
+    padding: 20px;
+    max-width: 600px;
+    }
+  
+  h1{
+  
+    margin-top: 0;
+    text-align: centre;
+  }
+  
+  .input-container{
+    display: flex;
+    margin-bottom: 10px;
+    
+  }
+  
+  input[type = "text"]{
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    background-color: white;
+  }
+  
+  button{
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: pink;
+    color: black;
+  }
+  
+  button:hover{
+    background-color: green;
+  }
+  
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px;
+  }
+  
+  li{
+    padding: 10px;
+    border-bottom: 1px solid;
+  } */
+
+  /* -- */
+
+  /* Global Styles */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f9;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input and Button Container */
+.input-container {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    background-color: #f4f4f9;
+}
+
+button {
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #ff6666;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e55d5d;
+}
+
+/* Todo List */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f4f4f9;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li:nth-child(odd) {
+    background-color: #eaeaea;
+}
+
+/* Button styles inside the list items */
+.delete-btn, .edit-btn {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ff6666;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.delete-btn:hover, .edit-btn:hover {
+    background-color: #e55d5d;
+}
